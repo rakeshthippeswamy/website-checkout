@@ -1,0 +1,219 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	padding: 23px;
+}
+
+.wrapper , .shopContent , .productEdit ,.estimation ,.couponCard {
+	float: left;
+	width: 100%;
+}
+.shopContent{
+	padding:19px 0;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.mobQty{
+	font-size: 17px;
+}
+.productDetail{
+	border-top: 1px solid #D2CDCD;
+	border-bottom: 3px solid #D2CDCD;
+}
+.productDetail li{
+	list-style: none;
+	padding: 10px 0px;
+}
+.borderBottom {
+	border-bottom: 4px solid #D2CDCD;
+}
+.borderTop{
+	border-top: 4px solid #D2CDCD;
+}
+.productDescrp h2{
+	font-size: 14px;
+	font-weight: bold;
+}
+.productDescrp p{
+	margin-bottom: 0;
+	color: #7F7979;
+}
+.productDescrp p input{
+	width: 30px;
+    margin-left: 10px;
+    border: 1px solid #D2CDCD;
+   	text-align: center;
+}
+.productDescrp .prodQuantity ,.productDescrp .prodPrice{
+	margin:10px 0;
+}
+.productDescrp .prodPrice span{
+	font-size: 17px;
+}
+.productDescrp .prodPrice sup span{
+	font-size: 10px;
+}
+.productEdit{
+	margin-top: 25px;
+	list-style: none;
+}
+.productEdit li a{
+	font-size: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	color: #333;
+
+}
+.bdrBtm{
+	border-bottom: 2px solid #D2CDCD;
+}
+.bdrTop{
+	border-top: 2px solid #D2CDCD;
+}
+.giftCard {
+	padding: 10px 0;
+}
+.giftCard h2{
+	font-size: 12px;
+    text-align: center;
+    width: 212px;
+    margin: 0 auto;
+    float: none;
+    font-weight: bold;
+}
+.promoDetail{
+	margin: 10px 0;
+}
+.promoDetail input[type=button] , .promoDetail input[type=text]{
+	background-color: white;
+    padding: 8px;
+    border: 1px solid #999;
+}
+.estimation{
+	font-size: 12px;
+}
+.checkout a{
+	
+	 display: block;;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+    padding: 13px;
+    background: #286090;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+
+}
+.checkout a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.contShop{
+	text-decoration: underline;
+	color: #777070;
+	display: block;
+}
+.signIn a{
+	text-decoration: underline;
+}
+.signIn a:hover{
+	color: #A29F9F;
+}
+.helpDetail p{
+	font-size: 12px;
+}
+.helpDetail p a{
+	text-decoration: underline;
+}
+.helpDetail p a:hover{
+	color: #A29F9F
+	}
+.color1 , .color2,.color3 {
+	width: 30px;
+	height: 20px;
+	border:1px solid #cdcdcd;
+	background-color: #ffffff;
+	float: left;
+	display: block;
+	}
+/*
+.color1 {
+	float: right;
+}
+*/
+
+
+
+/*///////////////////////////////////////
+HELPER CLASSES
+////////////////////////////////////////*/
+
+.clearfix{
+	clear: both;
+}
+.brdrLeft{
+	border-left: 1px solid #D2CDCD; 
+}
+.bold{
+	font-weight: bold;
+}
+.mrgleft15{
+	margin-left:15px;
+}
+.greyColor{
+	color: #A29F9F;
+}
+.center{
+	text-align: center;
+}
+.pdBtm10{
+	padding-bottom: 10px;
+}
+.pdTop10{
+	padding-top: 10px;
+}
+.pd48{
+	padding-left: 57px !important;
+}
+.pd0{
+	padding: 0 !important;
+}
+.mrgBtm10{
+	margin-bottom:10px !important;
+}
+.alignLeft{
+	text-align: left !important;
+}
+.alignRight{
+	text-align: right !important;
+}
+.mrgTop18{
+	margin-top: 18px;
+}
+.mrgTop10{
+	margin-top: 10px;
+}
+.border0{
+	border:none;
+}
+.fontSize12{
+	font-size: 12px
+}
+.fontSize30{
+	font-size: 30px;
+}
+.popUp-colorSelec{
+margin: 0 auto !important;
+    float: none !important;
+}
+.active{
+    border: 2px solid blue;
+}

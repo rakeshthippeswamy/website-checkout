@@ -1,0 +1,172 @@
+[{
+    "productsInCart": [
+        {
+            "p_id": "1",
+            "p_name": "COTTON TSHIRT",
+            "p_variation": "SOLID GREEN",
+            "p_style": "ms13kt1906",
+            "p_selected_color": {
+                "name": "Blue",
+                "hexcode": "#1169BD"
+            },
+            "p_selected_size": {
+                "name": "Small",
+                "code": "S"
+            },
+            "p_available_options": {
+                "colors": [{
+                    "name": "Green",
+                    "hexcode": "#A3D2A1"
+                }, {
+                    "name": "Yellow",
+                    "hexcode": "#F9F8E6"
+                }, {
+                    "name": "Red",
+                    "hexcode": "#ED99A8"
+                }],
+                "sizes": [{
+                    "name": "Small",
+                    "code": "S"
+                }, {
+                    "name": "Medium",
+                    "code": "M"
+                }, {
+                    "name": "Large",
+                    "code": "L"
+                }, {
+                    "name": "Extra large",
+                    "code": "XL"
+                }]
+            },
+            "p_quantity": 1,
+            "p_originalprice": 11.0,
+            "p_price": 11.0,
+            "c_currency": "$"
+        }, {
+            "p_id": "2",
+            "p_name": "PRINT GIRLS TEE",
+            "p_variation": "PINK RAINBOW",
+            "p_style": "ms13kt1906",
+            "p_selected_color": {
+                "name": "Pink",
+                "hexcode": "#F1DDEF"
+            },
+            "p_selected_size": {
+                "name": "Small",
+                "code": "S"
+            },
+            "p_available_options": {
+                "colors": [{
+                    "name": "Green",
+                    "hexcode": "#A3D2A1"
+                }, {
+                    "name": "Yellow",
+                    "hexcode": "#F9F8E6"
+                }, {
+                    "name": "Pink",
+                    "hexcode": "#F1DDEF"
+                }],
+                "sizes": [{
+                    "name": "Small",
+                    "code": "S"
+                }, {
+                    "name": "Medium",
+                    "code": "M"
+                }, {
+                    "name": "Large",
+                    "code": "M"
+                }, {
+                    "name": "Extra Large",
+                    "code": "XL"
+                }]
+            },
+            "p_quantity": 1,
+            "p_originalprice": 17.0,
+            "p_price": 17.0,
+            "c_currency": "$"
+        }, {
+            "p_id": "3",
+            "p_name": "FLOWER PATTERN SHIRT",
+            "p_variation": "BLUE",
+            "p_style": "ms13kt1906",
+            "p_selected_color": {
+                "name": "Blue",
+                "hexcode": "#1169BD"
+            },
+            "p_selected_size": {
+                "name": "Small",
+                "code": "S"
+            },
+            "p_available_options": {
+                "colors": [{
+                    "name": "Green",
+                    "hexcode": "#A3D2A1"
+                }, {
+                    "name": "Blue",
+                    "hexcode": "#1169BD"
+                }, {
+                    "name": "Red",
+                    "hexcode": "#ED99A8"
+                }],
+                "sizes": [{
+                    "name": "Small",
+                    "code": "S"
+                }, {
+                    "name": "Medium",
+                    "code": "M"
+                }, {
+                    "name": "Large",
+                    "code": "L"
+                }, {
+                    "name": "Extra arge",
+                    "code": "XL"
+                }]
+            },
+            "p_quantity": 1,
+            "p_originalprice": 21.0,
+            "p_price": 9.0,
+            "c_currency": "$"
+        }, {
+            "p_id": "4",
+            "p_name": "CHECK PATTERN TSHIRT",
+            "p_variation": "MENS RED",
+            "p_style": "ms13kt1906",
+            "p_selected_color": {
+                "name": "Red",
+                "hexcode": ""
+            },
+            "p_selected_size": {
+                "name": "Small",
+                "code": "S"
+            },
+            "p_available_options": {
+                "colors": [{
+                    "name": "Green",
+                    "hexcode": "#A3D2A1"
+                }, {
+                    "name": "Yellow",
+                    "hexcode": "#F9F8E6"
+                }, {
+                    "name": "Red",
+                    "hexcode": "#ED99A8"
+                }],
+                "sizes": [{
+                    "name": "Small",
+                    "code": "S"
+                }, {
+                    "name": "Medium",
+                    "code": "M"
+                }, {
+                    "name": "Large",
+                    "code": "L"
+                }, {
+                    "name": "Extra Large",
+                    "code": "XL"
+                }]
+            },
+            "p_quantity": 1,
+            "p_originalprice": 22.0,
+            "p_price": 22.0,
+            "c_currency": "$"
+        }]
+    }]

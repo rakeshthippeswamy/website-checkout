@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="includes/css/style.css">
+</head>	  
+<body>
+	<div class="wrapper">
+		<header class="col-xs-12">
+			<h1 class="pull-left logo">YOUR SHOPPING BAG</h1>
+			<div class="pull-right mobQty hidden-lg hidden-md"></div>
+		</header>
+		<div class="borderBottom clearfix hidden-md hidden-lg"></div>
+		<section class="shopContent hidden-xs hidden-sm">
+			<ul class="productDetail col-md-12 hidden-xs">
+				<li class="col-xs-2 mobQty"></li>
+				<li class="col-xs-4"></li>
+				<li class="col-xs-2">SIZE</li>
+				<li class="col-xs-2">QTY</li>
+				<li class="col-xs-2">PRICE</li>
+			</ul>
+		</section>
+
+		<!-- Products For Mobile -->
+		<section class="shopContent prodContentMOb hidden-lg hidden-md bdrBtm" data-mob="0">
+			<div class="col-xs-6 productImage ">
+				<img src="includes/images/T1.jpg" alt="">
+			</div>
+			<div class="col-xs-6 productDescrp">
+				    <h2 class="item-mob-heading"></h2>
+				    <p class="item-mob-style"></p>
+					<p class="item-mob-colour"></p>
+                <p class="item-mob-size"></p>
+				<p class="prodQuantity bold">QTY:<input type="text" value="1"></p>
+				<p class="prodPrice bold"><sup><span class="glyphicon glyphicon-usd"></span></sup><span class="item-mob-total"></span></p>
+			</div>
+			<ul class="productEdit col-xs-12">
+				<li class="col-xs-3"><a href="javascrt:void(0)" class="openPopUp" data-toggle="modal" data-target="#myModal">EDIT</a></li>
+				<li class="col-xs-4 brdrLeft"><a  href="javascrt:void(0)" class="remove-item"><span class="glyphicon glyphicon-remove"></span> REMOVE</a></li>
+				<li class="col-xs-5 brdrLeft"><a href="javascrt:void(0)">SAVE FOR LATER</a></li>
+			</ul>
+		</section>
+		<section class="shopContent prodContentMOb hidden-lg hidden-md bdrBtm" data-mob="1">
+			<div class="col-xs-6 productImage ">
+				<img src="includes/images/T2.jpg" alt="">
+			</div>
+			<div class="col-xs-6 productDescrp">
+				<h2 class="item-mob-heading"></h2>
+				    <p class="item-mob-style"></p>
+					<p class="item-mob-colour"></p>
+				<p class="item-mob-size"></p>
+				<p class="prodQuantity bold">QTY:<input type="text" value="1"></p>
+				<p class="prodPrice bold"><sup><span class="glyphicon glyphicon-usd"></span></sup><span class="item-mob-total"></span></p>
+			</div>
+			<ul class="productEdit col-xs-12">
+				<li class="col-xs-3"><a href="javascrt:void(0)" class="openPopUp" data-toggle="modal" data-target="#myModal">EDIT</a></li>
+				<li class="col-xs-4 brdrLeft"><a href="javascrt:void(0)" class="remove-item"><span class="glyphicon glyphicon-remove"></span> REMOVE</a></li>
+				<li class="col-xs-5 brdrLeft"><a href="javascrt:void(0)">SAVE FOR LATER</a></li>
+			</ul>
+		</section>
+		<section class="shopContent prodContentMOb hidden-lg hidden-md borderBottom " data-mob="2">
+			<div class="col-xs-6 productImage ">
+				<img src="includes/images/T3.jpg" alt="">
+			</div>
+			<div class="col-xs-6 productDescrp">
+				<h2 class="item-mob-heading"></h2>
+				    <p class="item-mob-style"></p>
+					<p class="item-mob-colour"></p>
+				<p class="item-mob-size"></p>
+				<p class="prodQuantity bold">QTY:<input type="text" value="1"></p>
+				<p class="prodPrice bold"><sup><span class="glyphicon glyphicon-usd"></span></sup><span class="item-mob-total"></span></p>
+			</div>
+			<ul class="productEdit col-xs-12">
+				<li class="col-xs-3"><a href="javascrt:void(0)" class="openPopUp" data-toggle="modal" data-target="#myModal">EDIT</a></li>
+				<li class="col-xs-4 brdrLeft"><a href="javascrt:void(0)" class="remove-item"><span class="glyphicon glyphicon-remove"></span> REMOVE</a></li>
+				<li class="col-xs-5 brdrLeft"><a href="javascrt:void(0)">SAVE FOR LATER</a></li>
+			</ul>
+		</section>
+        
+        <section class="shopContent prodContentMOb hidden-lg hidden-md borderBottom " data-mob="3">
+			<div class="col-xs-6 productImage ">
+				<img src="includes/images/T4.jpg" alt="">
+			</div>
+			<div class="col-xs-6 productDescrp">
+				<h2 class="item-mob-heading"></h2>
+				    <p class="item-mob-style"></p>
+					<p class="item-mob-colour"></p>
+				<p class="item-mob-size"></p>
+				<p class="prodQuantity bold">QTY:<input type="text" value="1"></p>
+				<p class="prodPrice bold"><sup><span class="glyphicon glyphicon-usd"></span></sup><span class="item-mob-total"></span></p>
+			</div>
+			<ul class="productEdit col-xs-12">
+				<li class="col-xs-3"><a href="javascrt:void(0)" class="openPopUp" data-toggle="modal" data-target="#myModal">EDIT</a></li>
+				<li class="col-xs-4 brdrLeft"><a href="javascrt:void(0)" class="remove-item"><span class="glyphicon glyphicon-remove"></span> REMOVE</a></li>
+				<li class="col-xs-5 brdrLeft"><a href="javascrt:void(0)">SAVE FOR LATER</a></li>
+			</ul>
+		</section>
+
+		<!-- Products For Desktop -->
+        
+		<section class="shopContent prodContent hidden-xs hidden-sm bdrBtm" data-index="0">
+			<div class="col-md-2 productImage ">
+				<img src="includes/images/T1.jpg" alt="">
+			</div>
+			<div class="col-md-10 productDescrp">
+				<div class="col-md-4">
+					<h2 class="item-heading"></h2>
+					<p class="item-style"></p>
+					<p class="item-colour"></p>
+					<ul class="productEdit">
+						<li class="col-xs-3 pd0"><a href="javascrt:void(0)" class="openPopUp alignLeft" data-toggle="modal" data-target="#myModal">EDIT</a></li>
+						<li class="col-xs-4 brdrLeft pd0"><a href="javascrt:void(0)" class="remove-item"><span class="glyphicon glyphicon-remove"></span> REMOVE</a></li>
+						<li class="col-xs-5 brdrLeft pd0"><a href="javascrt:void(0)">SAVE FOR LATER</a></li>
+					</ul>	
+				</div>	
+				<div class="col-md-8 pd48 mrgTop18">	
+					<p class="pull-left col-md-4 item-size"></p>
+					<p class="bold pull-left col-md-4 item-qty"><input type="text" value="1"></p>
+					<p class="bold pull-left col-md-4 "><sup><span class="glyphicon glyphicon-usd"></span></sup> <span class="item-total"></span></p>
+				</div>
+			</div>	
+		</section>
+		<section class="shopContent prodContent hidden-xs hidden-sm bdrBtm" data-index="1">
+			<div class="col-md-2 productImage ">
+				<img src="includes/images/T2.jpg" alt="">
+			</div>
+			<div class="col-md-10 productDescrp">
+				<div class="col-md-4">
+					<h2 class="item-heading"></h2>
+					<p class="item-style"></p>
+					<p class="item-colour"></p>
+					<ul class="productEdit">
+						<li class="col-xs-3 pd0"><a href="javascrt:void(0)" class="openPopUp alignLeft" data-toggle="modal" data-target="#myModal">EDIT</a></li>
+						<li class="col-xs-4 brdrLeft pd0"><a href="javascrt:void(0)" class="remove-item"><span class="glyphicon glyphicon-remove"></span> REMOVE</a></li>
+						<li class="col-xs-5 brdrLeft pd0"><a href="javascrt:void(0)">SAVE FOR LATER</a></li>
+					</ul>	
+				</div>	
+				<div class="col-md-8 pd48 mrgTop18">	
+					<p class="pull-left col-md-4 item-size"></p>
+					<p class="bold pull-left col-md-4 item-qty"><input type="text" value="1"></p>
+					<p class="bold pull-left col-md-4 "><sup><span class="glyphicon glyphicon-usd"></span></sup> <span class="item-total"></span></p>
+				</div>
+			</div>	
+		</section>
+		<section class="shopContent prodContent hidden-xs hidden-sm borderBottom" data-index="2">
+			<div class="col-md-2 productImage ">
+				<img src="includes/images/T3.jpg" alt="">
+			</div>
+			<div class="col-md-10 productDescrp">
+				<div class="col-md-4">
+					<h2 class="item-heading"></h2>
+					<p class="item-style"></p>
+					<p class="item-colour"></p>
+					<ul class="productEdit">
+						<li class="col-xs-3 pd0"><a href="javascrt:void(0)" class="openPopUp alignLeft" data-toggle="modal" data-target="#myModal">EDIT</a></li>
+						<li class="col-xs-4 brdrLeft pd0"><a href="javascrt:void(0)" class="remove-item"><span class="glyphicon glyphicon-remove"></span> REMOVE</a></li>
+						<li class="col-xs-5 brdrLeft pd0"><a href="javascrt:void(0)">SAVE FOR LATER</a></li>
+					</ul>	
+				</div>	
+				<div class="col-md-8 pd48 mrgTop18">	
+					<p class="pull-left col-md-4 item-size"></p>
+					<p class="bold pull-left col-md-4 item-qty"><input type="text" value="1"></p>
+					<p class="bold pull-left col-md-4 "><sup><span class="glyphicon glyphicon-usd"></span></sup> <span class="item-total"></span></p>
+				</div>
+			</div>	
+		</section>
+        <section class="shopContent prodContent hidden-xs hidden-sm borderBottom" data-index="3">
+			<div class="col-md-2 productImage ">
+				<img src="includes/images/T4.jpg" alt="">
+			</div>
+			<div class="col-md-10 productDescrp">
+				<div class="col-md-4">
+					<h2 class="item-heading"></h2>
+					<p class="item-style"></p>
+					<p class="item-colour"></p>
+					<ul class="productEdit">
+						<li class="col-xs-3 pd0"><a href="javascrt:void(0)" class="openPopUp alignLeft" data-toggle="modal" data-target="#myModal">EDIT</a></li>
+						<li class="col-xs-4 brdrLeft pd0"><a href="javascrt:void(0)" class="remove-item"><span class="glyphicon glyphicon-remove"></span> REMOVE</a></li>
+						<li class="col-xs-5 brdrLeft pd0"><a href="javascrt:void(0)">SAVE FOR LATER</a></li>
+					</ul>	
+				</div>	
+				<div class="col-md-8 pd48 mrgTop18">	
+					<p class="pull-left col-md-4 item-size"></p>
+					<p class="bold pull-left col-md-4 item-qty"><input type="text" value="1"></p>
+					<p class="bold pull-left col-md-4 "><sup><span class="glyphicon glyphicon-usd"></span></sup> <span class="item-total"></span></p>
+				</div>
+			</div>	
+		</section>
+
+
+		<!-- Payment Section For Mobile -->
+
+
+		<section class="shopContent giftCard bdrBtm hidden-md hidden-lg">
+			<h2 class="col-xs-12">ENTER PROMOTION CODE OR GIFT CARD</h2>
+			<div class="promoDetail col-xs-12">
+				<input type="text" class="col-xs-7">
+				<input type="button" class=" mrgleft15 col-xs-4" value="APPLY">
+			</div>
+		</section>
+		<section class="shopContent giftCard hidden-xs hidden-sm">
+			<div class="col-md-4 pdTop10 helpDetail">
+				<p class="bold">Need help <br>or have question?</p>
+				<p class="greyColor">Call Customer Service at <br>1-800-555-5555</p>
+				<p><a href="javascript:void(0)" class="greyColor">Chat with one of<br>our stylists</a></p>
+				<p><a href="javascript:void(0)" class="greyColor">See return <br>and exchange policy</a></p>
+			</div>
+			<div class="col-md-8 pdBtm10 pdTop10">
+				<div class="couponCard">	
+					<h2 class="col-md-4 pull-left mrgTop10 mrgBtm10">ENTER PROMOTION CODE OR GIFT CARD</h2>
+					<div class="promoDetail col-md-8 pdBtm10 pull-right">
+						<input type="text" class="col-md-7">
+						<input type="button" class=" mrgleft15 col-md-4" value="APPLY">
+					</div>
+				</div>	
+				<section class="shopContent borderTop">
+					  <div class="estimation">	
+						<p class="col-xs-8 bold">SUBTOTAL</p>
+						<p class="col-xs-4 bold center"><sup><span class="glyphicon glyphicon-usd"></span></sup><span class="subTotalValue"></span></p>
+					  </div>
+					  <div class="estimation">	
+					  	<p class="col-xs-8 bold">PROMOTION CODE<br>JF10 APPLIED</p>
+						<p class="col-xs-4 bold center">-<sup><span class="glyphicon glyphicon-usd"></span></sup><span class="discountVal">07.00</span></p>
+					  </div>
+					  <div class="estimation">	
+						<p class="col-xs-8"><span class="bold">ESTIMATED SHIPPING<sup>*</sup></span><br><span class="greyColor">You spent $50, so you qualify for free shipping<sup>*</sup></span></p>
+						<p class="col-xs-4 bold center">FREE</p>
+					  </div>
+				</section>
+				<section class="shopContent bdrTop borderBottom">
+					<div class="estimation">	
+						<p class="col-xs-8"><span class="bold">ESTIMATED TOTAL</span><br><span class="greyColor">Tax will be applied during checkout</span></p>
+						<p class="col-xs-4 bold center"><sup><span class="glyphicon glyphicon-usd"></span></sup><span class="totalBill">52.00</span></p>
+				  	</div>
+				</section>
+			</div>
+		</section>
+		<!-- Footer for Desktop -->
+		<footer class="shopContent hidden-xs hidden-sm">
+			 	<div class="col-md-5 pull-right">
+			        <a href="javascript:void(0)" class="promoDetail contShop bold pull-left col-md-5">CONTINUE SHOPPING</a>
+					<div class="checkout pull-left col-md-7"><a href="javascript:void(0)">CHECKOUT</a></div>
+				</div>
+				<div class="col-xs-8 alignRight pdBtm10 pull-right mrgTop10">
+					<img src="includes/images/lock.jpg" alt="" class="promoDetail">
+					<p class="note greyColor promoDetail pull-right mrgleft15">Secure Checkout. Shopping is always safe &amp; secure</p>
+				</div>
+		</footer>
+		<!-- Footer for Mobile -->
+		<footer class="shopContent hidden-lg hidden-md">
+			<section class="shopContent bdrBtm">
+			  <div class="estimation">	
+				<p class="col-xs-8 bold">SUBTOTAL</p>
+				<p class="col-xs-4 bold"><sup><span class="glyphicon glyphicon-usd"></span></sup><span class="subTotalMobValue"></span></p>
+			  </div>
+			  <div class="estimation">	
+				<p class="col-xs-8"><span class="bold">ESTIMATED SHIPPING<sup>*</sup></span><br><span class="greyColor">You spent $50, so you qualify for free shipping<sup>*</sup></span></p>
+				<p class="col-xs-4 bold">FREE</p>
+			  </div>
+			  <div class="estimation">	
+				<p class="col-xs-8 bold">PROMOTION CODE<br>JF10 APPLIED</p>
+				<p class="col-xs-4 bold">-<sup><span class="glyphicon glyphicon-usd"></span></sup><span class="discountVal">07.00</span></p>
+			  </div>
+			</section>
+			<section class="shopContent">
+				<div class="estimation">	
+				<p class="col-xs-8"><span class="bold">ESTIMATED TOTAL</span><br><span class="greyColor">Tax will be applied during checkout</span></p>
+				<p class="col-xs-4 bold"><sup><span class="glyphicon glyphicon-usd"></span></sup><span class="totalBill">52.00</span></p>
+			  </div>
+			  <div class="checkout"><a href="javascript:void(0)">CHECKOUT</a></div>
+			  <div class="col-xs-12 center bdrBtm pdBtm10">
+			  	<a href="javascript:void(0)" class="promoDetail contShop bold">CONTINUE SHOPPING</a>
+				<p class="note greyColor promoDetail">Secure Checkout. Shopping is always safe & secure</p>
+				<img src="includes/images/lock.jpg" alt="">
+			 </div>
+				<p class="col-xs-12 greyColor signIn pdBtm10 pdTop10">
+					<a href="javascript:void(0)" class="greyColor">SIGN IN</a> to save your cart and have access to your items on mobile, tablet and desktop
+				</p>
+			</section>
+		</footer>
+	</div>
+	<!-- Modal Window -->
+	<div class="container">
+	  <div class="modal fade" id="myModal" role="dialog">
+		    <div class="modal-dialog">
+		     <!-- Modal content-->
+		      <div class="modal-content">
+		        <div class="modal-header border0">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        </div>
+		        <div class="modal-body col-xs-12 col-md-12 col-lg-12">
+		        	<div class="col-xs-6 col-md-6 col-lg-6 borderTop">
+		        		<h3 class="fontSize12 greyColor center">PAISELY JEAN</h3>
+		        		<p class="modalPrice center">
+		        			<sup class="fontSzze12 greyColor"><span class="glyphicon glyphicon-usd"></span></sup>
+		        			<span class="fontSize30 popup-price"></span>
+		        		</p>
+		        		<div class="colorSelect col-xs-12 center">
+		        			<div class="col-xs-5 pd0 center popUp-colorSelec"><a class="color1"></a>
+		        			<a href="javascrt:void(0)" class="color2 "></a>
+                            <a href="javascrt:void(0)" class="color3 "></a></div>
+                            
+		        			
+		        		</div>
+		        		<div class="col-xs-12 center mrgBtm10 mrgTop10">
+		        			<select class="size col-xs-12 col-md-6 pull-left popup-size">
+		        			</select>
+		        			<select class="Quant col-xs-12 col-md-6 pull-left">
+		        				<option>Qty:1</option>
+		        				<option>Qty:2</option>
+		        				<option>Qty:3</option>
+		        				<option>Qty:4</option>
+		        			</select>	
+		        		</div>
+		        		<div class="checkout">
+		        			<a href="javascript:void(0)" class="editButton">EDIT</a>
+		        		</div>
+		        		<p class="center signIn"><a href="javascript:void(0)" class="greyColor">See product details</a></p>
+		        	</div>
+		        	<div class="col-xs-6 col-xs-6 col-md-6 col-lg-6 center">
+                        <img src="includes/images/P1.jpg" alt="" class="popup-image">
+                    </div>
+		         
+		        </div>
+		        <div class="modal-footer border0">
+		         
+		        </div>
+		      </div>
+		    </div>
+	  </div>
+     </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="includes/data/cart.json"></script>
+<script type="text/javascript" src="includes/js/script.js"></script>
+
+</body>
+</html>
